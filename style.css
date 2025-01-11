@@ -1,0 +1,68 @@
+*{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.button{
+  background-color: green ;
+  width: 300px;
+  height: 45px;
+  border-radius: 7px;
+  margin-top: 41px;
+
+}
+.more{
+  margin-left: 172px;
+  margin-right: 27px;
+  margin-top: 50px;
+}
+#register{
+  margin-left: 27px;
+  color: green;
+  margin-top: 52px;
+}
+.subtitle{
+  margin-left: 100px;
+  margin-top: 36px;
+
+}
+.box{
+  width: 300px;
+  height: 45px;
+  border-radius: 7px;
+  display: block;
+  margin-top: 16px;
+}
+.link{
+  width: 163px;
+  height: 20px;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: #888888 solid 1px;
+  border-radius: 7px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 69px;
+  padding-right: 68px;
+  padding-bottom: 10px;
+
+}
+#facebook{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: block;
+  margin-top: 15px;
+  border: #b3d4fc solid 1px;
+  border-radius: 7px;
+  width: 173px;
+  height: 20px;
+  padding-top: 11px;
+  padding-left: 64px;
+  padding-right: 63px;
+  padding-bottom: 9px;
+}
+#subtitle{
+  margin-left: 203px;
+  margin-right: 100px;
+  margin-top: 36px;
+}
