@@ -93,6 +93,21 @@ main section div h1 span{
     text-decoration: none;
     background-color: green;
 }
-
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.super {
+    display: flex;
+    margin-top: 402px;
+    text-decoration: none;
+}
+.menu2{
+    display: flex;
+    background: #fbfbfb;
+    margin-left: 106px;
+    list-style: none;
+}
 
 
