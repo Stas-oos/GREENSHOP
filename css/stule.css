@@ -97,17 +97,41 @@ main section div h1 span{
     display: flex;
     text-decoration: none;
     list-style: none;
+
 }
 .super {
     display: flex;
-    margin-top: 402px;
     text-decoration: none;
+    width: 370px;
+    height: 470px;
+    margin-top: 402px;
 }
 .menu2{
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.menu3{
+    display: flex;
+}
+.ppp{
+    display: flex;
+    width: 310px;
+    height: 774px;
     background: #fbfbfb;
     margin-left: 106px;
-    list-style: none;
-}
+    text-decoration: none;
 
+}
+.ttt{
+    display: flex;
+    justify-content: space-between;
+    width: 840px;
+    height: 1190px;
+}
+.card{
+    width: 258px;
+    height: 350px;
+    display: flex;
+}
 

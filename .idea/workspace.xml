@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas">
-      <change afterPath="$PROJECT_DIR$/images/SuperSaleBanner.svg" afterDir="false" />
+    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas3">
+      <change afterPath="$PROJECT_DIR$/images/013.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product-20-320x3201.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tttttt.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stule.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stule.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -37,25 +44,28 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2rwDc3MzDxmbPws0qtoBxsXI6gW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Asus/PhpstormProjects/GREENSHOP/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/PhpstormProjects/GREENSHOP/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\PhpstormProjects\GREENSHOP\images" />
@@ -64,8 +74,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.115" />
-        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.115" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.168" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.168" />
       </set>
     </attachedChunks>
   </component>
@@ -78,7 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1737461320166</updated>
       <workItem from="1737461321380" duration="633000" />
-      <workItem from="1737544446066" duration="2390000" />
+      <workItem from="1737544446066" duration="2550000" />
+      <workItem from="1737974171741" duration="515000" />
+      <workItem from="1737974731277" duration="6255000" />
     </task>
     <task id="LOCAL-00001" summary="clas">
       <option name="closed" value="true" />
@@ -88,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737461711725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clas3">
+      <option name="closed" value="true" />
+      <created>1737546996636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737546996636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="clas3">
+      <option name="closed" value="true" />
+      <created>1737547005069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737547005071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clas" />
-    <option name="LAST_COMMIT_MESSAGE" value="clas" />
+    <MESSAGE value="clas3" />
+    <option name="LAST_COMMIT_MESSAGE" value="clas3" />
   </component>
 </project>
