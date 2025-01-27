@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas3">
-      <change afterPath="$PROJECT_DIR$/images/013.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/product-20-320x3201.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tttttt.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stule.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stule.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -91,6 +83,7 @@
       <workItem from="1737544446066" duration="2550000" />
       <workItem from="1737974171741" duration="515000" />
       <workItem from="1737974731277" duration="6255000" />
+      <workItem from="1737994075400" duration="2345000" />
     </task>
     <task id="LOCAL-00001" summary="clas">
       <option name="closed" value="true" />

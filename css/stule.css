@@ -115,23 +115,34 @@ main section div h1 span{
     display: flex;
 }
 .ppp{
-    display: flex;
-    width: 310px;
-    height: 774px;
+    max-width: 310px;
     background: #fbfbfb;
-    margin-left: 106px;
     text-decoration: none;
+
 
 }
 .ttt{
-    display: flex;
     justify-content: space-between;
-    width: 840px;
-    height: 1190px;
+    max-width: 840px;
 }
 .card{
-    width: 258px;
-    height: 350px;
+    max-width: 258px;
+}
+.yyy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ttt li{
+    text-decoration: none;
+    flex-direction: row;
     display: flex;
 }
-
+.ttt p{
+    justify-content: flex-end;
+    display: flex;
+}
+.ttt li a{
+    display: flex;
+    flex-direction: row;
+}
