@@ -139,10 +139,15 @@ main section div h1 span{
     display: flex;
 }
 .ttt p{
-    justify-content: flex-end;
     display: flex;
 }
 .ttt li a{
     display: flex;
     flex-direction: row;
+}
+.rrr{
+    display: flex;
+}
+.rrr p{
+    justify-content: end;
 }

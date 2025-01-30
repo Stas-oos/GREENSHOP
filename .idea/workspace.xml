@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas10">
+    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stule.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stule.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1737999726584" duration="642000" />
       <workItem from="1738233197302" duration="24000" />
       <workItem from="1738235501714" duration="2358000" />
-      <workItem from="1738238296293" duration="1869000" />
+      <workItem from="1738238296293" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="clas">
       <option name="closed" value="true" />
@@ -144,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738239072472</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="clas11">
+      <option name="closed" value="true" />
+      <created>1738240452119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738240452119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +165,7 @@
     <MESSAGE value="clas8" />
     <MESSAGE value="clas9" />
     <MESSAGE value="clas10" />
-    <option name="LAST_COMMIT_MESSAGE" value="clas10" />
+    <MESSAGE value="clas11" />
+    <option name="LAST_COMMIT_MESSAGE" value="clas11" />
   </component>
 </project>
