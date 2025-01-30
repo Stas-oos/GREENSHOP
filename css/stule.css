@@ -215,6 +215,7 @@ main section div h1 span{
 .categories_products_block-right_products_block {
     position: relative;
     transition: border-top 0.3s ease;
+    text-decoration: none;
 }
 
 
