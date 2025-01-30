@@ -64,6 +64,17 @@ header .login:hover svg path{
     text-transform: uppercase;
     color: #3d3d3d;
 }
+main section div h1 span{
+    color: #46a358;
+}
+.aoo{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
 .qoo{
     font-weight: 400;
     font-size: 14px;
@@ -82,163 +93,56 @@ header .login:hover svg path{
     text-decoration: none;
     background-color: green;
 }
-main section div h1 span{
-    color: #46a358;
-}
-.categories_products {
+.menu{
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding-bottom: 90px;
-    margin-left: 100px;
-}
+    text-decoration: none;
+    list-style: none;
 
-.categories_products_block_left {
-    padding: 14px 24px 0 30px;
-    align-items: center;
-    width: 310px;
+}
+.super {
     display: flex;
-    flex-direction: column;
-    gap: 23px;
-    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+    text-decoration: none;
+    width: 370px;
+    height: 470px;
+    margin-top: 402px;
 }
-
-.categories_products_block_left_categories li {
+.menu2{
     display: flex;
     justify-content: space-between;
-    gap: 120px;
+    margin-top: 100px;
 }
-
-.categories_products_block_left p {
-    margin-left: 190px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #3d3d3d;
-}
-
-.categories_products_block_left_categories {
+.menu3{
     display: flex;
-    flex-direction: column;
-    gap: 23px;
-    font-weight: 400;
-    font-size: 15px;
-    padding-bottom: 240px;
-
 }
-
-.categories_products_block_left_categories li a {
-    display: inline-block;
-    width: 50px;
-    color: #3d3d3d;
-    white-space: nowrap;
+.ppp{
+    max-width: 310px;
+    background: #fbfbfb;
     text-decoration: none;
-}
 
-.categories_products_block_left_categories li a:nth-child(1) {
-    padding-right: 100px;
-}
 
-.categories_products_block_left_categories li a:hover, .categories_products_block-right_short_by_left_nav li a {
-    content: "";
-    color: #46a358;
-    font-weight: 900;
-    text-decoration: none;
 }
-
-.categories_products_block-right_short_by {
-    display: flex;
+.ttt{
     justify-content: space-between;
-    align-items: stretch;
-    text-decoration: none;
+    max-width: 840px;
 }
-
-.categories_products_block-right_short_by_left_nav_link ul li a:root {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
-    color: #ffffff;
-    position: relative;
-    transition: color .1s ease-in-out;
-    font-weight: 400;
-    text-decoration: none;
+.card{
+    max-width: 258px;
 }
-
-.categories_products_block-right_short_by_left_nav_link ul li a:after {
-    content: "";
-    width: 100px;
-    height: 3px;
-    display: none;
-    background-color: #46a358;
-    position: absolute;
-    top: calc(100% + 200px);
-    left: 0;
-    z-index: 3;
-    text-decoration: none;
-}
-
-
-.categories_products_block-right_short_by_left_nav ul li a:hover {
-    color: green;
-}
-
-
-.categories_products_block-right_short_by_left_nav {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    bottom: 16px;
-    flex-direction: row;
-}
-
-
-.categories_products_block-right_short_by_right span {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 107%;
-    color: #3d3d3d;
-}
-
-.categories_products_block-right_short_by_right select {
-    border: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 107%;
-    color: #3d3d3d;
-}
-.categories_products_block-right_products {
-    position: relative;
+.yyy{
     display: flex;
     flex-wrap: wrap;
-    gap: 33px;
+    justify-content: space-between;
 }
-
-.categories_products_block-right_products_block {
-    position: relative;
-    transition: border-top 0.3s ease;
+.ttt li{
     text-decoration: none;
-}
-
-
-.categories_products_block-right_products_block img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.categories_products_block-right_products_block::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background-color: #46a358;
-
-}
-
-.categories_products_pages {
+    flex-direction: row;
     display: flex;
-    justify-content: end;
-    gap: 10px;
-    padding-bottom: 150px;
+}
+.ttt p{
+    justify-content: flex-end;
+    display: flex;
+}
+.ttt li a{
+    display: flex;
+    flex-direction: row;
 }
