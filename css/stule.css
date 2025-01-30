@@ -150,8 +150,8 @@ main section div h1 span{
     list-style: none;
 }
 .iii {
-    margin-left: 15px;
-    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-bottom: 18px;
 }
 .iii a{
     text-decoration: none;
@@ -171,6 +171,15 @@ main section div h1 span{
     color: black;
     list-style: none;
 }
-.yyy p{
+.yyy p {
     color: green;
+}
+.iii a{
+    margin-left: 30px;
+}
+.container2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
