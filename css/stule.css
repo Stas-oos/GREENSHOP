@@ -64,6 +64,24 @@ header .login:hover svg path{
     text-transform: uppercase;
     color: #3d3d3d;
 }
+.qoo{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.uoo{
+    border: 1px solid #46a358;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 171%;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
 main section div h1 span{
     color: #46a358;
 }
@@ -72,6 +90,7 @@ main section div h1 span{
     flex-direction: row;
     gap: 50px;
     padding-bottom: 90px;
+    margin-left: 100px;
 }
 
 .categories_products_block_left {
@@ -112,6 +131,7 @@ main section div h1 span{
     width: 50px;
     color: #3d3d3d;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .categories_products_block_left_categories li a:nth-child(1) {
@@ -122,12 +142,14 @@ main section div h1 span{
     content: "";
     color: #46a358;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .categories_products_block-right_short_by {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    text-decoration: none;
 }
 
 .categories_products_block-right_short_by_left_nav_link ul li a:root {
@@ -138,6 +160,7 @@ main section div h1 span{
     position: relative;
     transition: color .1s ease-in-out;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .categories_products_block-right_short_by_left_nav_link ul li a:after {
@@ -150,6 +173,7 @@ main section div h1 span{
     top: calc(100% + 200px);
     left: 0;
     z-index: 3;
+    text-decoration: none;
 }
 
 
