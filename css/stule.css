@@ -100,10 +100,7 @@ main section div h1 span{
 
 }
 .super {
-    display: flex;
-    text-decoration: none;
-    width: 370px;
-    height: 470px;
+   margin-left: -25px;
     margin-top: 402px;
 }
 .menu2{
@@ -118,12 +115,11 @@ main section div h1 span{
     max-width: 310px;
     background: #fbfbfb;
     text-decoration: none;
-
-
 }
 .ttt{
     justify-content: space-between;
     max-width: 840px;
+    margin-left: 40px;
 }
 .card{
     max-width: 258px;
@@ -136,10 +132,9 @@ main section div h1 span{
 .ttt li{
     text-decoration: none;
     flex-direction: row;
-    display: flex;
 }
 .ttt p{
-    display: flex;
+
 }
 .ttt li a{
     display: flex;
@@ -147,7 +142,34 @@ main section div h1 span{
 }
 .rrr{
     display: flex;
+    margin-bottom: 31px;
+    list-style: none;
+}
+.jjj{
+    list-style: none;
+}
+.iii {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.iii a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 402px;
 }
 .rrr p{
-    justify-content: end;
+    display: flex;
+    justify-content: flex-end;
+}
+.shortby{
+    display: flex;
+    justify-content: space-between;
+}
+.rrr a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.yyy p{
+    color: green;
 }
