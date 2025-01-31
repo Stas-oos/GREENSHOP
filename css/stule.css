@@ -171,6 +171,7 @@ main section div h1 span{
 }
 .card{
     max-width: 258px;
+    margin-bottom: 70px;
 }
 .yyy{
     display: flex;
@@ -236,11 +237,10 @@ main section div h1 span{
     width: 35px;
     height: 35px;
     margin-left: 10px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 89%;
+    display: flex;
     color: #3d3d3d;
-    padding: 10px 12px;
+    align-items: center;
+    justify-content: center;
 }
 .pags{
     display: flex;
