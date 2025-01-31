@@ -8,8 +8,10 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
+}
+.baner .container{
+    align-items: center;
 }
 header{
     margin-bottom: 12px;
@@ -165,6 +167,7 @@ main section div h1 span{
     justify-content: space-between;
     max-width: 840px;
     margin-left: 40px;
+    max-height: 1190px;
 }
 .card{
     max-width: 258px;
@@ -219,12 +222,6 @@ main section div h1 span{
 .iii a{
     margin-left: 12px;
 }
-.container2{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
 .rrr a{
     margin-right: 37px;
     margin-bottom: 38px;
@@ -248,6 +245,7 @@ main section div h1 span{
 .pags{
     display: flex;
     justify-content: flex-end;
+    margin-right: 120px;
 }
 .pags a:hover{
     background: #46a358;
