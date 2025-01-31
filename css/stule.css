@@ -28,6 +28,50 @@ header nav ul li a{
     color: #3d3d3d;
     text-decoration: none;
 }
+header nav ul li .dropdown {
+    display: block;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: -60px;
+}
+
+header nav ul li .dropdown a:before {
+    display: none;
+}
+
+header nav ul li .dropdown a {
+    padding: 8px 14px;
+    width: 188px;
+    display: inline-block;
+    background: #EDF6EE;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    line-height: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+
+header nav ul li .dropdown a:hover {
+    background-color: #1a712a;
+    color: white;
+}
+header nav li .dropdown li:last-of-type a:after{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url("../images/arow.svg");
+}
+header nav ul li .dropdown a:hover:after {
+    background-image: url("../images/arow_hover.svg");
+    transform: rotate(180deg);
+}
 header .login{
     background: #46a358;
     border-radius: 6px;
@@ -101,7 +145,7 @@ main section div h1 span{
 
 }
 .super {
-   margin-left: -25px;
+    margin-left: -25px;
     margin-top: 402px;
 }
 .menu2{
@@ -129,13 +173,11 @@ main section div h1 span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 .ttt li{
     text-decoration: none;
     flex-direction: row;
-}
-.ttt p{
-
 }
 .ttt li a{
     display: flex;
@@ -186,4 +228,26 @@ main section div h1 span{
 .rrr a{
     margin-right: 37px;
     margin-bottom: 38px;
+}
+.pages{
+    list-style: none;
+}
+.pages a{
+    text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 10px 12px;
+
+
+}
+.pags{
+    display: flex;
+    justify-content: flex-end;
 }
