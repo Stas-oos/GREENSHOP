@@ -244,10 +244,12 @@ main section div h1 span{
     line-height: 89%;
     color: #3d3d3d;
     padding: 10px 12px;
-
-
 }
 .pags{
     display: flex;
     justify-content: flex-end;
+}
+.pags a:hover{
+    background: #46a358;
+    color: white;
 }
