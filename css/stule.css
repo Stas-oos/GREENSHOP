@@ -5,7 +5,7 @@
     url('../fonts/fontspring-demo-cerapro-regular-webfont.woff2') format('woff2'),
     url('../fonts/fontspring-demo-cerapro-regular-webfont.woff') format('woff'),
     url('../fonts/fontspring-demo-cerapro-regular-webfont.ttf') format('truetype'),
-    url('../fonts/fontspring-demo-cerapro-regular-webfont.svg#fontspring_demo_-_cera_proRg') format('svg');
+    url('fontspring-demo-cerapro-regular-webfont.svg#fontspring_demo_-_cera_proRg') format('svg');
     font-weight: normal;
     font-style: normal;
 
