@@ -181,9 +181,26 @@ main section div h1 span{
     margin-left: 40px;
     max-height: 1190px;
 }
-.card{
+.card {
     max-width: 258px;
     margin-bottom: 70px;
+    border-top: solid 1px transparent;
+    position: relative;
+}
+    .discont{
+    background-color: #46a358;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    color: white;
+}
+.card:hover{
+    border-top: solid 1px #46a358;
 }
 .yyy{
     display: flex;
@@ -351,4 +368,9 @@ text-decoration: none;
 }
 .uuu img{
     margin-bottom: 0px;
+}
+.card p span{
+    text-decoration: line-through;
+    margin-left: 16px;
+    color: #727272;
 }
