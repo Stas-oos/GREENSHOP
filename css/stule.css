@@ -371,6 +371,8 @@ text-decoration: none;
 .blog3{
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
 }
 .card4 a img{
     padding-left: 3px;
@@ -387,9 +389,4 @@ text-decoration: none;
     left: 0;
     top: 14px;
     color: white;
-}
-.container2{
-    display: flex;
-    margin-left: 100px;
-    justify-content: space-between;
 }
