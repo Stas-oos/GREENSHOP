@@ -356,6 +356,7 @@ main section div h1 span{
     margin-left: 15px;
 text-decoration: none;
     color: black;
+    display: inline-flex;
 }
 .uuu img{
     margin-bottom: 0px;
@@ -379,14 +380,29 @@ text-decoration: none;
     margin-top: 15px;
 }
 .navigation{
-    background-color: #46a358;
-    padding-left: 7px;
-    padding-right: 73px;
-    padding-top: 241px;
-    padding-bottom: 14px;
+    background-color: white;
     display: inline-block;
     position: absolute;
-    left: 0;
-    top: 14px;
-    color: white;
+    left: 69px;
+    top: 241px;
+    width: 20px;
+    height: 20px;
+}
+.navigation2{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 115px;
+    top: 241px;
+    width: 20px;
+    height: 20px;
+}
+.navigation3{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 162px;
+    top: 241px;
+    width: 20px;
+    height: 20px;
 }
