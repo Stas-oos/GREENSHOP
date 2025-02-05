@@ -140,6 +140,10 @@ main section div h1 span{
     line-height: 171%;
     color: #727272;
     margin-bottom: 44px;
+    :root {
+        font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+        second-family: "Hanging Letters", sans-serif;
+    }
 }
 .uoo{
     border: 1px solid #46a358;
