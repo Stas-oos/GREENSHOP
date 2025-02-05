@@ -376,4 +376,7 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
 }
-
+.card4 a img{
+    padding-left: 3px;
+    margin-top: 15px;
+}
