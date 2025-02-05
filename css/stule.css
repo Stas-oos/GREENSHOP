@@ -20,6 +20,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
 
 }
 .baner .container{
@@ -275,8 +276,7 @@ main section div h1 span{
 .pags{
     display: flex;
     justify-content: flex-end;
-    margin-right: 120px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .pags a:hover{
     background: #46a358;
@@ -300,8 +300,6 @@ main section div h1 span{
     background: #FBFBFB;
 }
 .card3{
-    display: flex;
-    flex-direction: column;
     text-align: right;
 }
 .card3 h3{
@@ -321,7 +319,6 @@ main section div h1 span{
 }
 .card3 a{
    text-align: right;
-    margin-left: 128px;
     margin-right: 30px;
 }
 .onle{
@@ -379,4 +376,21 @@ text-decoration: none;
 .card4 a img{
     padding-left: 3px;
     margin-top: 15px;
+}
+.navigation{
+    background-color: #46a358;
+    padding-left: 7px;
+    padding-right: 73px;
+    padding-top: 241px;
+    padding-bottom: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    color: white;
+}
+.container2{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
 }
