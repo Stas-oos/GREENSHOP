@@ -140,10 +140,9 @@ main section div h1 span{
     line-height: 171%;
     color: #727272;
     margin-bottom: 44px;
-    :root {
-        font-family: "fontspring_demo_-_cera_proRg", sans-serif;
-        second-family: "Hanging Letters", sans-serif;
-    }
+    font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+    second-family: "Hanging Letters", sans-serif;
+
 }
 .uoo{
     border: 1px solid #46a358;
@@ -189,6 +188,7 @@ main section div h1 span{
     margin-bottom: 70px;
     border-top: solid 1px transparent;
     position: relative;
+    overflow: hidden;
 }
 .discont{
     background-color: #46a358;
@@ -409,4 +409,11 @@ text-decoration: none;
     top: 241px;
     width: 20px;
     height: 20px;
+}
+.navigator{
+    opacity: 0;
+}
+.navigator:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
