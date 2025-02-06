@@ -413,7 +413,7 @@ text-decoration: none;
 .navigator{
     opacity: 0;
 }
-.navigator:hover{
+.card:hover.navigator{
     opacity: 1;
-    transition: 0.5s;
 }
+
