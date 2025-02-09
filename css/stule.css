@@ -90,7 +90,7 @@ header nav ul li .dropdown a:hover {
     background-color: #1a712a;
     color: white;
 }
-header nav li .dropdown li:last-of-type a:after{
+.lastdrop a:after{
     content: "";
     display: inline-block;
     width: 7px;
