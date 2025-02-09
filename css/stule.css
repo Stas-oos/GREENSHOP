@@ -358,12 +358,7 @@ main section div h1 span{
     max-width: 268px;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
-.card4 img{
-  margin-bottom: 9px;
-    }
-
 .card4 p span{
     margin-bottom: 4px;
     color: green;
@@ -380,12 +375,10 @@ main section div h1 span{
 }
 .uuu{
     margin-left: 15px;
-text-decoration: none;
+    text-decoration: none;
     color: black;
     display: inline-flex;
-}
-.uuu img{
-    margin-bottom: 0px;
+    position: relative;
 }
 .card p span{
     text-decoration: line-through;
@@ -400,10 +393,6 @@ text-decoration: none;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-}
-.card4 a img{
-    padding-left: 3px;
-    margin-top: 15px;
 }
 .navigator{
     opacity: 0;
@@ -427,7 +416,7 @@ text-decoration: none;
     width: 16px;
     height: 16px;
     position: absolute;
-    left: 5px;
-    top: 12px;
+    left: 80px;
+    bottom: 0px;
     background-image: url("../images/Arrow-Right.svg");
 }
