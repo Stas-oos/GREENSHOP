@@ -570,3 +570,34 @@ main section div h1 span{
     text-align: center;
     background: #ffffff;
 }
+.contact p {
+    position: relative;
+}
+.contact .stret:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 185px;
+    top: 5px;
+    background-image: url("../images/Icon.svg");
+}
+.contact .stret2:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 175px;
+    background-image: url("../images/Icon1.svg");
+}
+.contact .stret3:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 125px;
+    background-image: url("../images/Icon(2).svg");
+}
