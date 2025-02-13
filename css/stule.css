@@ -453,6 +453,7 @@ main section div h1 span{
 .service{
     max-width: 204px;
     margin-top: 25px;
+    margin-left: 10px;
 }
 .service img{
     margin-bottom: 17px;
@@ -475,6 +476,8 @@ main section div h1 span{
 }
 .service2{
     max-width: 204px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .subscribe form{
     display: flex;
@@ -544,4 +547,10 @@ main section div h1 span{
 }
 .social-icons{
     margin-bottom: 22px;
+}
+.service img{
+    margin-left: 10px;
+}
+.service2 img{
+    margin-left: 10px;
 }
