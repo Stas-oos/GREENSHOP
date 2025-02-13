@@ -522,6 +522,8 @@ main section div h1 span{
     align-items: center;
     background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
     margin-bottom: 33px;
+    border-top: solid 2px rgba(70, 163, 88, 0.1);
+    border-bottom: solid 2px rgba(70, 163, 88, 0.1);
 }
 .contact p{
     max-width: 178px;
@@ -535,6 +537,8 @@ main section div h1 span{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 6px;
+    border-bottom: solid 2px rgba(70, 163, 88, 0.1);
+    margin-bottom: 20px;
 }
 .footer-links ul li a{
     text-decoration: none;
@@ -561,4 +565,8 @@ main section div h1 span{
 }
 .social-icons img{
     margin-left: 10px;
+}
+.inform{
+    text-align: center;
+    background: #ffffff;
 }
