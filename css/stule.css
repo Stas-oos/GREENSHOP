@@ -449,6 +449,8 @@ main section div h1 span{
     border-left: solid 1px rgba(70, 163, 88, 0.1);
     border-right: solid 1px rgba(70, 163, 88, 0.1);
     margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .service{
     max-width: 204px;
@@ -520,7 +522,9 @@ main section div h1 span{
     align-items: center;
     background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
     margin-bottom: 33px;
-;
+}
+.contact p{
+    max-width: 178px;
 }
 .contact img{
     width: 150px;
@@ -547,10 +551,14 @@ main section div h1 span{
 }
 .social-icons{
     margin-bottom: 22px;
+    display: flex;
 }
 .service img{
     margin-left: 10px;
 }
 .service2 img{
+    margin-left: 10px;
+}
+.social-icons img{
     margin-left: 10px;
 }
