@@ -10,6 +10,41 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+<!-- Кастомный прелоадер (эффект загрузки страницы) | https://necodim.ru/tilda/preloader --> <div id="preloader"><span class="loader"></span></div> <script> document.body.style.overflow = 'hidden';
+const loader = () => {
+    document.body.style.overflow = '';
+    const preloader = document.getElementById('preloader');
+    const fadeout = setInterval(() => {
+        const opacity = getComputedStyle(preloader).opacity;
+        opacity > 0 ? preloader.style.opacity = opacity - 0.05 : (clearInterval(fadeout), preloader.remove());
+    }, 15);
+}
+const necodimLoadingArray = new Array();
+const necodimPageReady = () => {
+    let conditionDom = necodimLoadingArray.indexOf('dom') !== -1;
+    let conditionShop = document.querySelectorAll('.js-store-grid-cont').length ? necodimLoadingArray.indexOf('store') !== -1 : true;
+    let conditionZero = document.querySelectorAll('.t396__artboard').length ? necodimLoadingArray.indexOf('zero') !== -1 : true;
+    conditionDom && conditionShop && conditionZero ? loader() : false;
+}
+document.addEventListener('DOMContentLoaded', () => (necodimLoadingArray.push('dom'), necodimPageReady()));
+document.querySelectorAll('.js-store-grid-cont').forEach(catalogGrid => catalogGrid.addEventListener('tStoreRendered', () => (necodimLoadingArray.push('store'), necodimPageReady())));
+document.querySelectorAll('.t396__artboard').forEach(artBoard => artBoard.addEventListener('artBoardRendered', () => (necodimLoadingArray.push('zero'), necodimPageReady()))); </script> <style>  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    opacity: 1;
+    background-color: #00ff00;
+    overflow: hidden;
+    cursor: progress;
+}
+</style>
 <header>
     <div class="container">
         <a href="#">
