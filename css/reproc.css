@@ -1,30 +1,33 @@
-$main_color:#46A358;
-$main_font:"fontspring_demo_-_cera_proRg";
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+
+.container {
   max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-.baner .container{
+
+.baner .container {
   align-items: center;
 }
-header{
+
+header {
   margin-bottom: 12px;
   padding-top: 30px;
 }
+
 header nav ul {
   display: flex;
   list-style: none;
   align-items: center;
   gap: 50px;
 }
-header nav ul li a{
+
+header nav ul li a {
   font-family: "fontspring_demo_-_cera_proRg";
   font-weight: 400;
   font-size: 16px;
@@ -32,14 +35,17 @@ header nav ul li a{
   text-decoration: none;
   position: relative;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
   color: #3d3d3d;
   font-family: "fontspring_demo_-_cera_proRg";
   font-weight: 700;
 }
-header nav ul li a:hover:before{
+
+header nav ul li a:hover:before {
   width: 100%;
 }
+
 header nav ul li a:before {
   content: "";
   display: block;
@@ -50,9 +56,11 @@ header nav ul li a:before {
   bottom: -25px;
   transition: 0.4s;
 }
-header nav ul li{
+
+header nav ul li {
   position: relative;
 }
+
 header nav ul li .dropdown {
   display: none;
   list-style: none;
@@ -61,15 +69,17 @@ header nav ul li .dropdown {
   left: -60px;
   padding-top: 40px;
 }
+
 header nav ul li .dropdown a:before {
   display: none;
 }
+
 header nav ul li .dropdown a {
   padding: 8px 14px;
   min-width: 188px;
   display: inline-block;
   background: #EDF6EE;
-  font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #3d3d3d;
@@ -77,11 +87,13 @@ header nav ul li .dropdown a {
   transition: 0.3s;
   position: relative;
 }
+
 header nav ul li .dropdown a:hover {
   background-color: #1a712a;
   color: white;
 }
-.lastdrop a:after{
+
+.lastdrop a:after {
   content: "";
   display: inline-block;
   width: 7px;
@@ -91,71 +103,86 @@ header nav ul li .dropdown a:hover {
   top: 12px;
   background-image: url("../images/arow.svg");
 }
+
 header nav ul li .dropdown a:hover:after {
   background-image: url("../images/arow_hover.svg");
   transform: rotate(180deg);
 }
+
 header nav ul li.drop:hover .dropdown {
   display: block;
 }
-.dropdown2{
+
+.dropdown2 {
   display: none;
   position: absolute;
   min-width: 178px;
 }
-.lastdrop:hover .dropdown2{
+
+.lastdrop:hover .dropdown2 {
   display: block;
   left: 100%;
   top: -300%;
 }
-.lastdrop{
+
+.lastdrop {
   position: relative;
 }
-header nav ul li .dropdown2 a:after{
+
+header nav ul li .dropdown2 a:after {
   display: none;
 }
-header .login{
+
+header .login {
   background: #46a358;
   border-radius: 6px;
   padding: 7px 17px;
   display: flex;
   align-items: center;
-  font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   transition: 0.4s;
 }
-header .login svg{
+
+header .login svg {
   margin-right: 4px;
 }
-header .login svg path{
+
+header .login svg path {
   transition: 0.4s;
   margin-right: 4px;
 }
-header .login:hover{
+
+header .login:hover {
   background: white;
   color: #46a358;
 }
-header .login:hover svg path{
+
+header .login:hover svg path {
   stroke: #46a358;
 }
-.baner .acticle{
+
+.baner .acticle {
   max-width: 557px;
 }
-.ioo{
+
+.ioo {
   font-weight: 900;
   font-size: 70px;
   line-height: 100%;
   text-transform: uppercase;
   color: #3d3d3d;
-  font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
 }
-main section div h1 span{
+
+main section div h1 span {
   color: #46a358;
 }
-.aoo{
+
+.aoo {
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
@@ -164,7 +191,8 @@ main section div h1 span{
   color: #3d3d3d;
   font-family: "fontspring_demo_-_cera_proRg", sans-serif;
 }
-.qoo{
+
+.qoo {
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
@@ -173,7 +201,8 @@ main section div h1 span{
   font-family: "fontspring_demo_-_cera_proRg", sans-serif;
   second-family: "Hanging Letters", sans-serif;
 }
-.uoo{
+
+.uoo {
   border: 1px solid #46a358;
   border-radius: 6px;
   padding: 10px 20px;
@@ -181,5 +210,7 @@ main section div h1 span{
   color: white;
   text-decoration: none;
   background-color: green;
-  font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
 }
+
+/*# sourceMappingURL=reproc.css.map */

@@ -96,15 +96,18 @@ body {
     left: 0;
     top: 14px;
     color: white;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
 }
 .card:hover{
     border-top: solid 1px #46a358;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
 }
 .yyy{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 90px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
 }
 .ttt li{
     text-decoration: none;
