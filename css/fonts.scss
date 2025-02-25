@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  font-family: "Cera Pro", sans-serif;
+  list-style: none;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-black.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-blackitalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-bold.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-bolditalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-light.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-lightitalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-medium.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-mediumitalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-regular.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-regularitalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/Fontspring-DEMO-cerapro-thin.otf') format('otf'),
+  url('../fonts/Fontspring-DEMO-cerapro-thinitalic.otf') format('otf');
+}

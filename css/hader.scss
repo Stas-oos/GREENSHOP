@@ -1,0 +1,165 @@
+$main_color: #46A358;
+$main_font: "fontspring_demo_-_cera_proRg";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.baner {
+  .container {
+    align-items: center;
+  }
+}
+
+header {
+  margin-bottom: 12px;
+  padding-top: 30px;
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      gap: 50px;
+
+      li {
+        position: relative;
+
+        a {
+          font-family: $main_font;
+          font-weight: 400;
+          font-size: 16px;
+          color: #3d3d3d;
+          text-decoration: none;
+          position: relative;
+
+          &:hover {
+            color: #3d3d3d;
+            font-weight: 700;
+
+            &:before {
+              width: 100%;
+            }
+          }
+
+          &:before {
+            content: "";
+            display: block;
+            background: $main_color;
+            height: 2px;
+            width: 0;
+            position: absolute;
+            bottom: -25px;
+            transition: 0.4s;
+          }
+        }
+
+        .dropdown {
+          display: none;
+          list-style: none;
+          position: absolute;
+          top: 10px;
+          left: -60px;
+          padding-top: 40px;
+
+          a {
+            padding: 8px 14px;
+            min-width: 188px;
+            display: inline-block;
+            background: #EDF6EE;
+            font-family: $main_font, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #3d3d3d;
+            line-height: 20px;
+            transition: 0.3s;
+            position: relative;
+
+            &:hover {
+              background-color: #1a712a;
+              color: white;
+            }
+          }
+        }
+
+        &.drop:hover .dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .login {
+    background: $main_color;
+    border-radius: 6px;
+    padding: 7px 17px;
+    display: flex;
+    align-items: center;
+    font-family: $main_font, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+
+    svg {
+      margin-right: 4px;
+
+      path {
+        transition: 0.4s;
+      }
+    }
+
+    &:hover {
+      background: white;
+      color: $main_color;
+
+      svg path {
+        stroke: $main_color;
+      }
+    }
+  }
+}
+
+.lastdrop {
+  position: relative;
+
+  a:after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url("../images/arow.svg");
+  }
+
+  &:hover {
+    .dropdown2 {
+      display: block;
+      left: 100%;
+      top: -300%;
+    }
+
+    a:after {
+      background-image: url("../images/arow_hover.svg");
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.dropdown2 {
+  display: none;
+  position: absolute;
+  min-width: 178px;
+}
