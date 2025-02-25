@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.baner .acticle {
+  max-width: 557px;
+}
+
+.ioo {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+main section div h1 span {
+  color: #46A358;
+}
+
+.aoo {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+}
+
+.qoo {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #727272;
+  margin-bottom: 44px;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+}
+
+.uoo {
+  border: 1px solid #46A358;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+}
+
+.card:hover {
+  border-top: solid 1px #46A358;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+}
+
+.yyy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  font-family: "fontspring_demo_-_cera_proRg", sans-serif;
+}
+.yyy p {
+  color: green;
+}
+
+.ttt li {
+  text-decoration: none;
+  flex-direction: row;
+}
+.ttt li a {
+  display: flex;
+  flex-direction: row;
+}
+
+.rrr {
+  display: flex;
+  margin-bottom: 38px;
+  list-style: none;
+}
+.rrr p {
+  display: flex;
+  justify-content: flex-end;
+}
+.rrr a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  margin-right: 37px;
+}
+
+.jjj {
+  list-style: none;
+}
+
+.iii {
+  margin-left: 14px;
+  margin-bottom: 18px;
+}
+.iii a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 402px;
+  margin-left: 12px;
+}
+
+.shortby {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+.pages a {
+  text-decoration: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  display: flex;
+  color: #3d3d3d;
+  align-items: center;
+  justify-content: center;
+}
+
+.pags {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+.pags a:hover {
+  background: #46A358;
+  color: white;
+}
+
+.card img {
+  margin-bottom: 31px;
+}
+
+/*# sourceMappingURL=menu2.css.map */

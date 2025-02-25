@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas40">
-      <change afterPath="$PROJECT_DIR$/css/card3.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/futer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/hader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/menu2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reproc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reproc.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reproc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stule.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stule.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f4b8a342-45a3-42df-88c3-3f29b4847278" name="Changes" comment="clas50" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +122,7 @@
       <workItem from="1740215633075" duration="1635000" />
       <workItem from="1740420002362" duration="2672000" />
       <workItem from="1740502658279" duration="795000" />
-      <workItem from="1740503551078" duration="2625000" />
+      <workItem from="1740503551078" duration="2928000" />
     </task>
     <task id="LOCAL-00001" summary="clas">
       <option name="closed" value="true" />
@@ -439,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740216900622</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="clas50">
+      <option name="closed" value="true" />
+      <created>1740506461035</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740506461035</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +455,7 @@
     <MESSAGE value="clas25" />
     <MESSAGE value="clas30" />
     <MESSAGE value="clas40" />
-    <option name="LAST_COMMIT_MESSAGE" value="clas40" />
+    <MESSAGE value="clas50" />
+    <option name="LAST_COMMIT_MESSAGE" value="clas50" />
   </component>
 </project>

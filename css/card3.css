@@ -1,0 +1,91 @@
+.flex {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-bottom: 138px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  max-width: 586px;
+  background: #FBFBFB;
+}
+
+.card3 {
+  text-align: right;
+}
+.card3 h3 {
+  padding: 37px 30px 0 119px;
+}
+.card3 p {
+  padding: 9px 30px 25px 0;
+}
+.card3 a {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.card2 img {
+  margin: -50px 0 10px 0;
+}
+
+.onle,
+.onle2 {
+  text-align: center;
+}
+
+.onle2 {
+  margin-bottom: 35px;
+}
+
+.onle {
+  margin-bottom: 15px;
+}
+
+.card4 {
+  background-color: #FBFBFB;
+  max-width: 268px;
+  display: flex;
+  flex-direction: column;
+}
+.card4 h3 {
+  padding: 0 64px 4px 15px;
+}
+.card4 p {
+  padding: 0 0 9px 15px;
+}
+.card4 p span {
+  margin-bottom: 4px;
+  color: green;
+  margin-left: 15px;
+}
+
+.uuu {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  position: relative;
+}
+
+.card p span {
+  text-decoration: line-through;
+  margin-left: 16px;
+  color: #727272;
+}
+
+.menu2 .container {
+  margin-bottom: 90px;
+}
+
+.blog3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=card3.css.map */
