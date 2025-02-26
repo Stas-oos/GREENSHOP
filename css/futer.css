@@ -214,4 +214,46 @@
   background: white;
 }
 
+.ui-accordion .ui-accordion-header {
+  padding: 20px 70px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  border: 1px solid #242424;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.ui-accordion .ui-accordion-content {
+  border: 1px solid #242424;
+  border-radius: 0px 0px 8px 8px;
+  border-top: none;
+  margin-bottom: 16px;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+  color: black;
+}
+
+.ui-icon {
+  background-image: url("images/arow.svg");
+  background-position: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: 0.5s;
+  transform: rotate(-90deg);
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active.ui-icon:active {
+  transform: rotate(0);
+}
+
 /*# sourceMappingURL=futer.css.map */
